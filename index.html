@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pokemon</title>
+</head>
+
+<body>
+    <div class="circulo"></div>
+
+    <img src="./img/logo.png" alt="Starbucks Logo" id="logo">
+
+    <div class="=conteudo">
+        <div class="caixa-texto">
+            <h2>Pokemon <br>
+                Catch, Train, and Battle!<span>Pokemon</span></h2>
+            <p>Pokémon is a popular franchise where players catch, train, and battle unique creatures. It offers fun
+                adventures through games, cards, and TV shows for fans of all ages.</p>
+
+            <button class="btn">Capturar</button>
+            <button class="btn" id="btn-slt">Soltar</button>
+            <p class="p"></p>
+        </div>
+
+        <div class="caixa-imagem">
+            <img src="./img/pikachu.png" alt="Starbucks Coffee" class="starbucks">
+             <div class="text"></div>
+        </div>
+
+    </div>
+
+    <div class="menu">
+        <img src="./img/pikachu.png" alt="thumb1" class="btn-menu"
+            onclick="trocaImagem('./img/pikachu.png'); trocaCor('#ecfd02'); trocaTexto('Ola eu sou o PIKACHU!', '#ecfd02')">
+        <img src="./img/squartlu.png" alt="thumb2" class="btn-menu"
+            onclick="trocaImagem('./img/squartlu.png'); trocaCor('#00aaff'); trocaTexto('Ola eu sou o SQUIRTLE!', '#00aaff')">
+        <img src="./img/charmander.png" alt="thumb3" class="btn-menu"
+            onclick="trocaImagem('./img/charmander.png'); trocaCor('#ff6600'); trocaTexto('Ola eu sou o CHAMANDER!', '#ff6600')">
+        <img src="./img/bulbassar.png" alt="thumb4" class="btn-menu"
+            onclick="trocaImagem('./img/bulbassar.png'); trocaCor('#2ea00f'); trocaTexto('Ola eu sou o BULBASAR!', '#2ea00f')">
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
